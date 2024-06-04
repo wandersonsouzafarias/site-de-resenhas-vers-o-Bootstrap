@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+____________________________
+Pequenas telas: até 600px 
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+    span#burguer { /*vai fazer com que o menu hamburguer desapareça quando estiver em tela grande. */
+        display: none;
+    }
+
+    menu{
+        display: block; /*Quando a minha tela for maior que 768px o meu menu irá aparecer.*/
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        width: 77px; 
+    }
+
+    main {
+        width: 1080px; /*Quando a minha tela for maior que 800px o meu main vai manter o tamanho de 800px independente do tamanho da minha tela.*/
+    }
+   
+}
+
+@media screen and (max-width: 428px) { /*Quando a minha tela for menor do que 414px ela irá fazer a configuração abaixo.*/
+    #textoHeader {
+        margin-top: 10px;
+       
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 884px){
+    #textoHeader {
+        margin-top: 80px;
+       
+    }
+}
+
+@media screen and (max-width: 320px){
+    #textoHeader {
+        margin-top: -15px;
+        
+    }
+}
+
+

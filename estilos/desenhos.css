@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+*, *::before, *:after {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;/*Mantem o espaçamento e não deixa quebrar o Layout*/
+    -webkit-box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+body, html {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MEU READER
+__________________________________*/
+header {
+    background-color: aqua;
+    position: relative;
+    height: 300px;
+}
+div.imagem01 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover; /*O cover fez minha imagem ficar sem repetição*/
+    padding-right: 2px;
+}
+div.imagem01 > img {
+    height: 290px;
+    width: 200%;
+    padding-right: 5px;
+}
+
+#h1h2 {
+    margin: auto;
+    text-align: center;
+}
+header > h1 {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(0, 0, 0);
+   padding-bottom: 90px;
+   padding-top: 90px;
+   line-height: .9;
+   font-variant: small-caps;/*Faz com que as letras continue maiusculas, mas as do meio ficam menores.*/
+   font-size: 4vw;/*Vai diminuir em dez por cento de acordo com a tela, referente a largura(weight).*/
+}
+
+main {
+    max-width: 990px;
+    min-width: 280px;
+    margin: auto;
+}
+p {
+    font-size: 1.1em;
+}
+h2 {
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.parag {
+    text-align: justify;
+    text-indent: 20px;
+    padding: -3px;
+    margin: 10px;
+    
+}
+article {
+    text-align: justify;
+    text-indent: 20px;
+}
+.container {
+    display: flex; /*Me ajudou a ajustar as div na mesma linha, deixou minha caixa fixa eu posso colocar o tamanho de texto que desejar e minha caixa não levanto TOPP!!*/
+}
+
+section {
+    width: 295px;
+    align-content: flex-end;
+    margin-bottom: 50px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: .8em;
+}
+
+div {
+    display: inline-block;
+    padding: 5px;
+}
+
+img {
+    width: 295px;
+    height: 173px;
+    border-radius: 5px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+/* Inicializando configurações para o footer 
+_________________________________________________*/
+.footer {
+    background-color: darkgray;
+    float: left;
+    width: 100%px;
+    padding: 5px 5px;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+}
+
+.content {
+    width: 90%;
+    margin: 0px 5px;
+    padding-right: 2px;
+    margin: auto;
+}
+.footer-col {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-col h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#paragrafo {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+
+
+/*CONFIGURANDO MINHAS COLUNAS 1(OUTROS PROJETOS MEUS) E 2(REDES SOCIAS).
+___________________________________________________________________________*/
+
+.footer-col:nth-child(2) { /*Coluna outros projetos meus*/
+    width: 50%;
+    float: right;
+    padding: 1px;
+    margin-left: 1%;
+}
+.footer-col:nth-child(3) { /*Coluna redes socias.*/
+    width: 25%;
+    float: right;
+    padding: 1px;
+    margin: 5px;
+}
+
+/* REDES SOCIAIS
+______________________________*/
+
+.footer-col-social > li > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+
+/*CONFIGURANDO DIREITOS AUTORAIS
+___________________________________*/
+
+.footer-autorais {
+    display: block; /*Fiz com que o meu elemento permanecesse em uma linha só.*/
+    padding: 10px;
+}
+
+.row {
+    float: left;
+    width: 96%;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+.center-footer {
+    text-align: center;
+}
+

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*Mantem o espaçamento e não deixa quebrar o Layout*/
+    -webkit-box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+body { 
+    height: 100vh;
+}
+header {
+    min-height: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: bold;
+    width: inherit;
+    background-image: linear-gradient(rgba(123, 123, 221, 0.452), rgba(222, 235, 238, 0.863), rgba(57, 57, 184, 0.548));
+    color: white;
+}
+header > h1 {
+    margin: auto;
+    background-color: rgba(11, 11, 66, 0.459);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+main {
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+main > h1 {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div {
+    margin: auto;
+    padding: 20px 10px;
+}
+ a {
+    text-decoration: none;
+ }
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+/*Configurando as redes de contatos
+_________________________________________*/
+
+.footer {
+    padding-top: 100px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.205), rgba(0, 204, 255, 0.26), rgba(57, 57, 184, 0.377));
+    color:rgb(57, 57, 184);
+}
+.rodape {
+    background-color: whitesmoke;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
+.rodape > .para {
+    padding-top: 100px;
+}
+ul {
+    list-style: none;
+}

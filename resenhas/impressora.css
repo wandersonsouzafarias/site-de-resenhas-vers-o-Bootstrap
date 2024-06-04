@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em; /* Tamanho da letras */
+    line-height: 1.5em; /* é o meu espaçamento entre linhas. */
+}
+
+menu {
+    display: none;/* Retira o meu menu para não aparecer na hora na hora da impressão.*/
+}
+
+main {
+    width: 100%; /*Este main irá ocupar 100% do espaço do papel na hora da impressão.*/
+}
+
+main::after {  /* O pseudo class ::after significa depois. Então depois do article, então depois do aticle vai ser impresso a frase do content abaixo.*/
+    content: 'Essa resenha foi impressa pelo site de resenhas do Wanderson Souza.'
+}
+
+#ocultarForm {
+    display: none;
+}
+
+.footer {
+    display: none;
+}

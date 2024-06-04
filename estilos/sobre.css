@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,800;1,800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');/* Fonte Roboto Serif*/
+
+*, *::before, *::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*Mantem o espaçamento e não deixa quebrar o Layout*/
+    -webkit-box-sizing: border-box;
+}
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(#101728, #260E69, #101728);
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    text-align: center;
+    margin: 0px 20px 10px 20px;
+    padding: 80px 5px 10px 5px;
+    text-shadow: 5px 5px 5px black;
+    font-family: "Roboto Serif", serif;
+}
+
+main {
+    max-width: 100vw;
+    min-width: 280;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: "Roboto Serif", serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    font-family: "Roboto Serif", serif;
+}
+h3 {
+    text-align: justify;
+    margin: 20px 20px 10px 20px;
+}
+h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Roboto Serif", serif;
+}
+h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    font-family: "Roboto Serif", serif;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.50em;
+}
+
+.imgc {
+    background-size: cover;
+    background-attachment: fixed;
+    width: 95vw;
+    min-height: 500px;
+}
+#imgi {
+    background-image: url('../imagens/minhaFoto2.png');
+    background-position: right;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+footer > #autorais {
+    padding: 50px;
+    background-image: linear-gradient(#101728, #260E69, #101728);
+}

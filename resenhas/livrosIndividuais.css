@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;/*Mantem o espaçamento e não deixa quebrar o Layout*/
+    -webkit-box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(79, 79, 230);
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* Esta parte faz parte da configuração do footer */
+div.content{
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    padding: 5px;
+    text-decoration: none;/*Tira o sublinhado das palavras.*/
+    color: rgb(8, 83, 245); 
+    transition: all .6s ease-in-out;
+}
+a:hover {
+    color: rgba(243, 20, 31, 0.678);
+}
+/* Té aqui faz parte da configuração do footer */
+
+#titulos {
+    line-height: 1.50em;
+}
+
+img {
+    width: 25%;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    border: 1px solid #333;
+}
+textarea {
+    width: 75%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+/*FOOTER
+__________________________________*/
+/*Todos os códigos abaixo são para o meu footer e links do rodapé.*/
+.footer{
+    background-color: darkgray;
+    float: left;
+    width: 100%;
+    color: #fff;
+    padding: 30px 0px; /*Os 30px é referente a altura de baixo e de cima, o 0px é referente aos lados.*/
+}
+.footer-col{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.footer-col h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* LINKS ÚTEIS */
+.footer-col-links li{
+    padding: 10px 0px;
+}
+.footer-col-links li:not(:last-of-type)  {/*Coloquei bordas brancas nos meus links. O last-of-type tira a borda da última linha.*/
+    border-bottom: 1px solid #fff;
+}
+
+/* REDES SOCIAIS*/
+.footer-col-social li .fab{
+    background: #000;
+    font-size: 20px;
+    margin-right: 3px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+}
+
+/* AUTORAIS*/
+.footer-autorais{
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    color: #37fd25;
+}
+
+ /*FOOTER*/
+ .footer-col{
+    width: 45%;
+}
+.footer-col:nth-child(2){/*Estou configurando minha coluna dois.*/
+    width: 30%;
+    margin-left: 5%;
+}
+.footer-col:nth-child(3){/*Estou configurando minha coluna três.*/
+    width: 15%;
+    float: right;
+}
+.center-footer {
+    text-align: center;
+}
+
+

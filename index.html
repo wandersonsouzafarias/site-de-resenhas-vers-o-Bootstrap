@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Literário & Cinematográfico</title>
+    <link rel="shortcut icon" href="imagens/favicon.jpg" type="image/x-icon">
+    
+    <!--LINK CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM LINK CSS BOOTSTRAP-->
+
+    <link rel="stylesheet" href="formatacao.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+
+<header>
+  <!--INICIO NAVBAR BOOTSTRAP-->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu Universo Literário</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/comoFazerResenha.html" hreflang="pt-br" target="_blank" rel="next">Como Fazer uma Resenha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/filmes.html" hreflang="pt-br" target="_blank" rel="next">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/series.html" hreflang="pt-br" target="_blank" rel="next">Séries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/desenhos.html" hreflang="pt-br" target="_blank" rel="next">Desenhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/contatos.html" hreflang="pt-br" target="_blank" rel="next">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naves/sobre.html" hreflang="pt-br" target="_blank" rel="next">Sobre</a>
+            </li>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Nome do livro" aria-label="Search">
+            <button class="btn btn-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav><br><br>
+  <!--FIM NAVBAR BOOTSTRAP-->
+  
+    <div class="card text-bg-black">
+      <img src="imagens/biblioteca.jpg" class="card-img" alt="biblioteca">
+      <div class="card-img-overlay">
+        <div class="container">
+          <h1 id="textoHeader">Universo Literário & Cinematográfico</h1>
+        </div>
+      </div>
+    </div>
+</header>
+<body>
+
+  <div class="container">
+  
+        <div class="container" style="text-align: justify;">
+          <h2>Bem vindos ao site de Resenhas Universo Literário & Cinematográfico</h2>
+          <h6 class="subtitulo">Descubra a magia por trás das críticas: mergulhe nas análises detalhadas que ajudam você a encontrar seu próximo favorito.</h6><hr>
+        
+            <p>Para os apaixonados por histórias. Seja nas páginas de um livro, nas cenas de um filme, nos episódios de uma série ou nos traços de um desenho animado, acredito no poder das narrativas para nos transportar para mundos além da nossa imaginação.</p>
+            <p>No Universo Literário & Cinematográfico, mergulho fundo nessas histórias, explorando cada detalhe, analisando cada personagem e desvendando cada reviravolta. Minhas resenhas são feitas com cuidado e paixão, compartilhando minhas impressões e insights para ajudar você a descobrir novos tesouros culturais ou reavaliar obras que já conhece.</p>
+            <p>Se você é um devorador ávido de livros, um cinéfilo aficionado, um viciado em séries ou um nostálgico por desenhos animados, aqui você encontrará conteúdo feito com carinho e expertise. Explore nossas resenhas, deixe-se envolver pelas histórias e junte-se à nossa comunidade de amantes da cultura literária e cinematográfica.</p>
+            <p>Prepare-se para embarcar em uma jornada de descobertas e emoções. O mundo da literatura, do cinema, das séries e dos desenhos espera por você no Universo Literário & Cinematográfico!</p>
+        </div>
+
+          <!--INÍCIO CAROUSEL-->
+          <h2>Últimas Resenhas lançadas</h2>
+          <h6 class="subtitulo">Clique em uma capa para ler a resenha ou clique na seta para visualizar a próxima resenha.</h6>
+          <div class="container text-center col-sm-6 col-md-6 col-lg-6 border border-5 rounded" style="border: 2px solid black;">
+            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" class="carousel slide" style="margin-top: 10px; margin-bottom: 10px;">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="resenhas/steveJobs.html"><img src="imagens/jobsfoto.png" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption d-none d-md-block" style="color: black;">
+                    <h3>A biográfia de Steve Jobs</h3>
+                    <p>Um livro para se apreciar...</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="resenhas/aCabana.html"><img src="imagens/A Cabana.jpg" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption d-none d-md-block" style="color: black;">
+                    <h3>A Cabana</h3>
+                    <p>Um livro para se apreciar...</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <a href="resenhas/aRaiz.html"><img src="imagens/a raiz da rejeiçao.png" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption d-none d-md-block" style="color: black;">
+                    <h3>A Raiz da Rejeição</h3>
+                    <p>Um livro para se apreciar...</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> <br>
+          <!--FIM CAROUSEL-->
+            
+            </div><!--fim da classe container-->
+        
+        <div class="container">
+          <h2 class="tituloResneha">Mais Resenhas</h2><br>
+          <div class="card-group">
+            <div class="card">
+              <img src="imagens/A Segunda Guerra Mundial.png" class="card-img-top" alt="foto de capa A biografia de Steve Jobs">
+              <div class="card-body">
+                <h3 class="card-title"> A Segunda Guerra Mundial </h3>
+                <h6 class="card-text"><strong>Autor:</strong> Tullo Vigevani</h6>
+                <h6 class="card-text"><strong>Resenhista:</strong> Wanderson Souza de Farias</h6>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a class="btn btn-primary" href="resenhas/aSegundaGuerraMundial.html" role="button">Leia</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagens/como-fazer-amigos-e-influenciar-pessoas-resumo.jpg" class="card-img-top" alt="foto de capa A Cabana">
+              <div class="card-body">
+                <h3 class="card-title">Como Fazer Amigos e Influenciar Pessoas</h3>
+                <h6 class="card-text"><strong>Autor:</strong> Dale Carnegie</h6>
+                <h6 class="card-text"><strong>Resenhista:</strong> Wanderson Souza de Farias</h6>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a class="btn btn-primary" href="resenhas/comoFazerAmigos.html" role="button">Leia</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="imagens/fortalezaDigital.jpg" class="card-img-top" alt="foto e capa A raiz da Rejeição">
+              <div class="card-body">
+                <h3 class="card-title">Fortaleza Digital</h3>
+                <h6 class="card-text"><strong>Autor:</strong> Dan Brown</h6>
+                <h6 class="card-text"><strong>Resenhista:</strong> Wanderson Souza de Farias</h6>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <a class="btn btn-primary" href="resenhas/fotalezaDigital.html" role="button">Leia</a>
+                </div>
+              </div>
+            </div>
+          </div><br>
+          
+            <div class="card-group">
+              <div class="card">
+                <img src="imagens/comecePeloPorque.jpg" class="card-img-top" alt="Foto de capa livro Comece Pelo Porquê">
+                <div class="card-body">
+                  <h3 class="card-title">Comece Pelo Porquê</h3>
+                  <h6 class="card-text"><strong>Autor:</strong>Simon Sinek</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/comecePeloPorque.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagens/Como Identificar Oportunidades.png" class="card-img-top" alt="foto de capa do livro Brida de Paulo Coelho">
+                <div class="card-body">
+                  <h3 class="card-title"> Como Identificar Oportunidades</h3>
+                  <h6 class="card-text"><strong>Autor:</strong> Isabel Moraes</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/comoIdentificarOportunidades.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagens/boa formaR.jpg" class="card-img-top" alt="foto fortaleza digital">
+                <div class="card-body">
+                  <h3 class="card-title">Boa forma em noventa dias</h3>
+                  <h6 class="card-text"><strong>Autor:</strong>Matt Roberts</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/MattRoberts.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+
+            <div class="card-group">
+              <div class="card">
+                <img src="imagens/o guia do html5.png" class="card-img-top" alt="Foto de capa livro Comece Pelo Porquê">
+                <div class="card-body">
+                  <h3 class="card-title">O Guia Essencial do HTML5</h3>
+                  <h6 class="card-text"><strong>Autor:</strong>Jeanine Meyer</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/html5.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagens/bridaPauloCoelho.jpg" class="card-img-top" alt="foto de capa do livro Brida de Paulo Coelho">
+                <div class="card-body">
+                  <h3 class="card-title">Brida</h3>
+                  <h6 class="card-text"><strong>Autor:</strong>Paulo Coelho</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/brida.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="imagens/conversaFernandoPessoa2.jpg" class="card-img-top" alt="foto fortaleza digital">
+                <div class="card-body">
+                  <h3 class="card-title">Conversa/Entrevista com Fernando Pessoa</h3>
+                  <h6 class="card-text"><strong>Autor:</strong> Ricardo Arnaldo Malheiros Fiuza</h6>
+                  <h6 class="card-text"><strong>Resenhista:</strong>Wanderson Souza de Farias</h6>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <a class="btn btn-primary" href="resenhas/entrevistaFernando.html" role="button">Leia</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        
+<!-- Start footer -->
+      
+      <div class="container-fluid footer">
+        <div class="container">
+            <div class="row">
+
+              <div class="col-md-4 col-xs-12 bordas">
+                <h4 class="color">Endereço</h4>
+                <p class="colorwhite">Santa Luzia - MG</p>
+              </div>
+
+              <div class="col-md-4 col-xs-12 bordas">
+                <h4 class="color">Outros projetos</h4>
+                    <ul>
+                        <li><a class="colorwhite" href=" https://wandersonjhol.github.io/cursoCSSeHTML5-you1.1/">Site Bougainville Farm</a></li>
+                        <li><a class="colorwhite" href=" https://wandersonjhol.github.io/desafio10deExemploDoProfessor/">Mascote do Android</a></li>
+                    </ul>
+              </div>
+          
+              <div class="col-md-4 col-xs-12 bordas">
+                <h4 class="color">Redes socias</h4>
+                  <ul>
+                      <li><a class="colorwhite" href="#"><img src="imagens/fecR.jpg" alt="fec"> Fecebook</a></li>
+                      <li><a class="colorwhite" href="#"><img src="imagens/whatsappR.jpg" alt="zap"> whatsapp</a></li>
+                      <li><a class="colorwhite" href="#"><img src="imagens/instaR.jpg" alt="insta"> Instagram</a></li>
+                      <li><a class="colorwhite" href="#"><img src="imagens/twiterR.png" alt="twi"> twiter......</a></li>
+                  </ul>
+              </div>
+            </div><!--Fim row-->
+        </div><!--Fim conteiner-->
+        <div class="container autorais">
+          <p class="colorwhite">Todos os direitos reservados</p>
+          <p class="colorwhite" style="margin-top: -40px;">Site Criado Por Wanderson Souza Em: 2024</p>
+        </div>
+      </div> <!--Fim container-fluid-->
+
+        <!--LINK JS BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--FIM LINL JS BOOTSTRAP-->
+
+</body>
+</html>
