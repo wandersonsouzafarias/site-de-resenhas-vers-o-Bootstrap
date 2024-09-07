@@ -63,16 +63,6 @@ p {
     line-height: 1.50em;
 }
 
-.imgc {
-    background-size: cover;
-    background-attachment: fixed;
-    width: 95vw;
-    min-height: 500px;
-}
-#imgi {
-    background-image: url('../imagens/minhaFoto2.png');
-    background-position: right;
-}
 footer {
     background-color: black;
     text-align: center;
